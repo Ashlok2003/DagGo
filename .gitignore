@@ -1,0 +1,30 @@
+# Binaries
+
+/server
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build cache & test binaries
+
+*.test
+*.out
+
+# IDE/editor files
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Dagger / build artifacts
+
+dagger/.dagger/
